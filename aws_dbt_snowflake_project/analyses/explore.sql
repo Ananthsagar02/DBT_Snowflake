@@ -1,1 +1,1 @@
-SELECT * FROM {{ ref('bronze_bookings') }} LIMIT 10;
+SELECT * FROM {{ ref('bronze_hosts') }};
