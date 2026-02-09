@@ -30,4 +30,9 @@ models:
     sliver:
       +materialized: table
       +schema: sliver
+    gold:
+      +materialized: table
+      +schema: gold
+      ephermal:
+        +materialized: ephemeral
 
